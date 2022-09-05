@@ -267,6 +267,10 @@ header {
     display: block;
 }
 
+.source_code{
+    background: var(--color-bg2);
+}
+
 .source_code ul {
     display: flex;
 }
@@ -276,7 +280,8 @@ header {
 }
 
 .source_code ul li button {
-    width: 20rem;
+    width: fit-content;
+    background: none;
 }
 
 .source_code-info {
@@ -284,7 +289,9 @@ header {
 }
 
 .content {
-    margin: 10px;
+    /* margin: 10px; */
+    /* margin-top: 0; */
+    margin-left: 10px;
     width: 60%;
 }
 
@@ -577,7 +584,17 @@ footer ul li a:hover {
         margin-top: 0;
     }
 
+    .course {
+        margin: 5rem;
+        width: 70%;
+    }
+
+    .source_code ul li button {
+        width: fit-content;
+    }
+
     .courses_container {
+        display: block;
         grid-template-columns: 1fr 1fr;
     }
 
@@ -603,6 +620,8 @@ footer ul li a:hover {
 /* ======================= MEDIA QUERIES (PHONES) ===================== */
 
 @media screen and (max-width:600px) {
+
+
 
     .container {
         width: var(--container-width-sm);
