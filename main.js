@@ -6,6 +6,12 @@ window.addEventListener("scroll", () => {
     .classList.toggle("window-scroll", window.scrollY > 0);
 });
 
+window.addEventListener("scroll", () => {
+  document
+    .querySelector("navyo")
+    .classList.toggle("window-scroll", window.scrollY > 0);
+});
+
 // show/hide faq answer
 
 const faqs = document.querySelectorAll(".faq");
