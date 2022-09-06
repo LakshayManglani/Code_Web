@@ -123,6 +123,19 @@ nav {
   align-items: center;
 }
 
+.nav_container a {
+  display: flex;
+}
+
+.nav_container a img {
+  width: 5%;
+  margin-right: 20px;
+}
+
+.nav_container a h4 {
+  margin-top: 1rem;
+}
+
 nav button {
   display: none;
 }
@@ -381,7 +394,7 @@ footer {
 
 .footer_container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
 }
 

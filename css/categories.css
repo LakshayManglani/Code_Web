@@ -124,6 +124,19 @@ nav {
     align-items: center;
 }
 
+.nav_container a {
+    display: flex;
+}
+
+.nav_container a img {
+    width: 65%;
+    margin-right: 20px;
+}
+
+.nav_container a h4 {
+    margin-top: 1rem;
+}
+
 nav button {
     display: none;
 }
@@ -199,8 +212,8 @@ footer {
 
 .footer_container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 5rem;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 7rem;
 }
 
 .footer_container>div h4 {
@@ -548,4 +561,24 @@ textarea {
 
 #content1 {
     transform: translateX(-54.2rem);
+}
+
+#content4 {
+    transform: translateX(-54.2rem);
+}
+
+#content7 {
+    transform: translateX(-54.2rem);
+}
+
+#content10 {
+    transform: translateX(-54.2rem);
+}
+
+#content13 {
+    transform: translateX(-54.2rem);
+}
+
+textarea {
+    resize: none;
 }
