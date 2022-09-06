@@ -187,7 +187,12 @@ header {
 
 .categories {
   background: var(--color-bg1);
-  height: 32rem;
+  height: 35rem;
+}
+
+.categories_left a {
+  background: var(--color-danger);
+  color: var(--color-white);
 }
 
 .categories h1 {
@@ -210,8 +215,23 @@ header {
 
 .categories_right {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
+  height: 35rem;
+}
+
+.categories_right h5 {
+  font-size: 25px;
+}
+
+.categories_right video {
+  width: 20rem;
+}
+
+.categories_right .category {
+  padding-top: 0;
+  padding-bottom: 0;
+  height: 18rem;
 }
 
 .category {
