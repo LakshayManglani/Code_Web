@@ -128,13 +128,11 @@ nav {
 }
 
 .nav_container a img {
-  width: 5%;
+  width: 65%;
   margin-right: 20px;
 }
 
-.nav_container a h4 {
-  margin-top: 1rem;
-}
+
 
 nav button {
   display: none;
