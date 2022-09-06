@@ -579,3 +579,7 @@ textarea {
 textarea {
     resize: none;
 }
+
+video{
+    width: 55rem;
+}
